@@ -2,20 +2,20 @@ from rental.models import Rental, Car, RentalLocation
 from django.contrib.auth.models import User
 
 users = [
-    User(username="neil", email="neil@email.com", password="nl654llgs"),
-    User(username="andrew", email="andrew@email.com", password="nl654llgs"),
-    User(username="llagas", email="llagas@email.com", password="nl654llgs"),
-    User(username="dako", email="dako@email.com", password="nl654llgs"),
-    User(username="kaau", email="kaau@email.com", password="nl654llgs"),
+    User(username="jstne", email="jhusthine.ello@gmail.com", password="hateu123"),
+    User(username="jstne", email="jstne@email.com", password="loveu123"),
+    User(username="jhust", email="jhust@email.com", password="jhust123"),
+    User(username="jhush", email="jhush@email.com", password="jhush123"),
+    User(username="ello", email="ello@email.com", password="ello123"),
 ]
 
 User.objects.bulk_create(users)
 
-andrew = User.objects.get(username="andrew")
-neil = User.objects.get(username="neil")
+jstne = User.objects.get(username="jstne")
+jstne = User.objects.get(username="jstne")
 admin_user = User.objects.get(username="admin")  
-llagas = User.objects.get(username="llagas")
-dako = User.objects.get(username="dako")
+jhust = User.objects.get(username="jhust")
+jhush = User.objects.get(username="jhush")
 
 sikad = Car.objects.get(name="Sikad")
 rela = Car.objects.get(name="Rela")
